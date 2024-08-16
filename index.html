@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hyrjeta Topulli</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Material+Icons" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <header class="header">
+        <nav class="navbar">
+            <a href="#" class="logo">Hyrjeta Topulli's Portfolio</a>
+            <ul class="nav-links">
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#services">Services</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+            <input type="checkbox" id="mode" class="toggle-button">
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="hero">
+            <h1 class="text-center primary-dark">Welcome to My Portfolio</h1>
+            <p class="secondary-dark text-center">I am a passionate NextJS developer creating beautiful and functional websites.</p>
+        </section>
+
+        <section id="about" class="about-us bg-light">
+            <h2 class="primary-dark text-center">About Me</h2>
+            <p class="secondary-dark text-center">With experience in web development, I specialize in building responsive and user-friendly websites.</p>
+            <img src="picture1.jpg" alt="About Me Image" class="about-image">
+        </section>
+
+        <section id="projects" class="projects">
+            <h2 class="primary-dark text-center">Projects</h2>
+            <div class="grid">
+                <div class="item bg-light">
+                    <div class="flex">
+                        <div class="icon">
+                            <span class="material-icons">web</span>
+                        </div>
+                        <h3 class="primary-dark">Project One</h3>
+                        <p class="secondary-dark text-center">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Laboriosam, fugiat rem. Fugit earum numquam deleniti temporibus harum cumque excepturi incidunt!</p>
+                    </div>
+                </div>
+                <div class="item bg-light">
+                    <div class="flex">
+                        <div class="icon">
+                            <span class="material-icons">shopping_cart</span>
+                        </div>
+                        <h3 class="primary-dark">Project Two</h3>
+                        <p class="secondary-dark text-center">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugiat animi adipisci ullam cumque nihil enim voluptate recusandae dolores ipsa cupiditate?</p>
+                    </div>
+                </div>
+                <div class="item bg-light">
+                    <div class="flex">
+                        <div class="icon">
+                            <span class="material-icons">apps</span>
+                        </div>
+                        <h3 class="primary-dark">Project Three</h3>
+                        <p class="secondary-dark text-center">Lorem ipsum dolor, sit amet consectetur adipisicing elit. Suscipit sunt voluptatem neque eveniet quae perspiciatis consequuntur libero quibusdam iure vero.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="services" class="services bg-light">
+            <h2 class="primary-dark text-center">Services</h2>
+            <div class="grid">
+                <div class="item">
+                    <div class="flex">
+                        <div class="icon">
+                            <span class="material-icons">code</span>
+                        </div>
+                        <h3 class="primary-dark">Web Development</h3>
+                        <p class="secondary-dark text-center">Creating responsive and efficient websites tailored to your needs.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="flex">
+                        <div class="icon">
+                            <span class="material-icons">brush</span>
+                        </div>
+                        <h3 class="primary-dark">Design</h3>
+                        <p class="secondary-dark text-center">Crafting beautiful and user-friendly designs for web and mobile.</p>
+                    </div>
+                </div>
+                <div class="item">
+                    <div class="flex">
+                        <div class="icon">
+                            <span class="material-icons">support</span>
+                        </div>
+                        <h3 class="primary-dark">Support</h3>
+                        <p class="secondary-dark text-center">Providing ongoing support and maintenance for your digital projects.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="contact-us">
+            <h2 class="primary-dark text-center">Contact Me</h2>
+            <form class="contact-form">
+                <input type="text" placeholder="Your Name" class="form-input">
+                <input type="email" placeholder="Your Email" class="form-input">
+                <textarea placeholder="Your Message" class="form-textarea"></textarea>
+                <button type="submit" class="form-button">Send Message</button>
+            </form>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p class="text-center secondary-dark">© 2024 Hyrjeta Topulli's Portfolio. All Rights Reserved.</p>
+    </footer>
+
+    <script src="./index.js"></script>
+</body>
+</html>
